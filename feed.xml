@@ -2,66 +2,66 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Site Title</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2016-01-29T00:31:25+00:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="saulve.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="saulve.github.io" />
+<updated>2016-01-29T00:36:02+00:00</updated>
+<id>saulve.github.io/</id>
 <author>
   <name>Saul Venskutonis</name>
-  <uri>/</uri>
+  <uri>saulve.github.io/</uri>
   <email>saulvenskutonis@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[This is but a test]]></title>
- <link rel="alternate" type="text/html" href="/this-is-but-a-test/" />
-  <id>/this-is-but-a-test</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/this-is-but-a-test/" />
+  <id>saulve.github.io/this-is-but-a-test</id>
   <updated>2016-01-19 00:40:57 +0000T00:00:00-00:00</updated>
   <published>2016-01-19T00:00:00+00:00</published>
   
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;TEST NR 2!!!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/this-is-but-a-test/&quot;&gt;This is but a test&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on January 19, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/this-is-but-a-test/&quot;&gt;This is but a test&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on January 19, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[This is a rake test post]]></title>
- <link rel="alternate" type="text/html" href="/this-is-a-rake-test-post/" />
-  <id>/this-is-a-rake-test-post</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/this-is-a-rake-test-post/" />
+  <id>saulve.github.io/this-is-a-rake-test-post</id>
   <updated>2016-01-19 00:38:50 +0000T00:00:00-00:00</updated>
   <published>2016-01-19T00:00:00+00:00</published>
   
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;TEST NR 1!!!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/this-is-a-rake-test-post/&quot;&gt;This is a rake test post&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on January 19, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/this-is-a-rake-test-post/&quot;&gt;This is a rake test post&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on January 19, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with a Background Image]]></title>
- <link rel="alternate" type="text/html" href="/background-image/" />
-  <id>/background-image</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/background-image/" />
+  <id>saulve.github.io/background-image</id>
   <published>2013-10-26T00:00:00+01:00</published>
   <updated>2013-10-26T00:00:00+01:00</updated>
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
@@ -76,7 +76,7 @@
 
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on October 26, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on October 26, 2013.&lt;/p&gt;
   </content>
 </entry>
 
@@ -84,31 +84,31 @@
 <entry>
   <title type="html"><![CDATA[Sample Link Post]]></title>
  <link rel="alternate" type="text/html" href="http://mademistakes.com" />
-  <id>/sample-link-post</id>
+  <id>saulve.github.io/sample-link-post</id>
   <published>2013-08-12T00:00:00+01:00</published>
   <updated>2013-08-12T00:00:00+01:00</updated>
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on August 12, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[A Post with a Video]]></title>
- <link rel="alternate" type="text/html" href="/video-post/" />
-  <id>/video-post</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/video-post/" />
+  <id>saulve.github.io/video-post</id>
   <published>2013-06-25T00:00:00+01:00</published>
   <updated>2013-06-25T00:00:00+01:00</updated>
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
@@ -120,21 +120,21 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;315&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on June 25, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on June 25, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
- <link rel="alternate" type="text/html" href="/readability-feature-post/" />
-  <id>/readability-feature-post</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/readability-feature-post/" />
+  <id>saulve.github.io/readability-feature-post</id>
   <updated>2013-06-30T00:00:00-00:00</updated>
   <published>2013-05-23T00:00:00+01:00</published>
   
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
@@ -179,20 +179,20 @@
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[A Post with Images]]></title>
- <link rel="alternate" type="text/html" href="/sample-post-images/" />
-  <id>/sample-post-images</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/sample-post-images/" />
+  <id>saulve.github.io/sample-post-images</id>
   <published>2013-05-22T00:00:00+01:00</published>
   <updated>2013-05-22T00:00:00+01:00</updated>
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
@@ -287,20 +287,20 @@ Available values: [1..3].&lt;/li&gt;
 &lt;/figure&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
- <link rel="alternate" type="text/html" href="/readability-post/" />
-  <id>/readability-post</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/readability-post/" />
+  <id>saulve.github.io/readability-post</id>
   <published>2012-05-22T00:00:00+01:00</published>
   <updated>2012-05-22T00:00:00+01:00</updated>
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
@@ -345,21 +345,21 @@ Available values: [1..3].&lt;/li&gt;
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 22, 2012.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/readability-post/&quot;&gt;Testing Readability with a Bunch of Text&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on May 22, 2012.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Sample Post]]></title>
- <link rel="alternate" type="text/html" href="/sample-post/" />
-  <id>/sample-post</id>
+ <link rel="alternate" type="text/html" href="saulve.github.io/sample-post/" />
+  <id>saulve.github.io/sample-post</id>
   <updated>2014-12-24T00:00:00-00:00</updated>
   <published>2011-03-10T00:00:00+00:00</published>
   
   <author>
     <name>Saul Venskutonis</name>
-    <uri></uri>
+    <uri>saulve.github.io</uri>
     <email>saulvenskutonis@gmail.com</email>
   </author>
   <content type="html">
@@ -381,7 +381,7 @@ Available values: [1..3].&lt;/li&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 
-&lt;p class=&quot;image-right&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p class=&quot;image-right&quot;&gt;&lt;img src=&quot;saulve.github.io/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
 
@@ -489,7 +489,7 @@ Available values: [1..3].&lt;/li&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
 &lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on March 10, 2011.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;saulve.github.io/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Saul Venskutonis at &lt;a href=&quot;saulve.github.io&quot;&gt;Site Title&lt;/a&gt; on March 10, 2011.&lt;/p&gt;
   </content>
 </entry>
 
