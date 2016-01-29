@@ -1,0 +1,21 @@
+{
+  "name": "saulve",
+  "description": "website for thinkers, menders and learners",
+  "main": "",
+  "authors": [
+    "Saul Venskutonis"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/saulve/saulve.github.io",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
