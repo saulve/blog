@@ -12,10 +12,17 @@
 	perspective-origin: 50% 200%;
 	@media #{$medium} {
 		position: fixed;
+		max-width: 100%;
+		top: 25px;
+		left: 25px;
+	}
+	@media (min-width: 400px) {
+		position: fixed;
 		max-width: 175px;
 		top: 25px;
 		left: 25px;
 	}
+
 	button {
 		top: 0;
 		left: 0;
@@ -33,6 +40,9 @@
 		@media #{$medium} {
 			@include border-radius(3px,3px,3px,3px);
 		}
+		@media (min-width: 400px) {
+			@include border-radius(3px,3px,3px,3px);
+		}
 	}
 	button:hover,
 	button.dl-active,
@@ -48,8 +58,8 @@
 		top: 10px;
 		left: 16%;
 		box-shadow: 
-			0 10px 0 $white, 
-			0 20px 0 $white;
+		0 10px 0 $white, 
+		0 20px 0 $white;
 	}
 	button.dl-active {
 		display: none;
@@ -61,6 +71,7 @@
 		-moz-transform-style: preserve-3d;
 		transform-style: preserve-3d;
 	}
+	/*Social network icons*/
 	li {
 		position: relative;
 		h4 {
@@ -83,8 +94,9 @@
 		i {
 			// display: inline-block;
 		}
+
 		a {
-			display: block;
+			display: inline-block;
 			position: relative;
 			padding: 15px 20px;
 			@include font-rem(14);
@@ -93,9 +105,14 @@
 			color: $white;
 			outline: none;
 		}
-		&.dl-back > a {
-			padding-left: 30px;
-			background: rgba(0,0,0,0.2);
+		&.dl-back a:before {
+			font-family: 'fontawesome';
+			color: $white;
+			speak: none;
+			-webkit-font-smoothing: antialiased;
+			content: "\f060";
+			/*padding-left: 30px;
+			background: rgba(0,0,0,0.2);*/
 		}
 		&.dl-back:after,
 		> a:not(:only-child):after {
@@ -106,8 +123,9 @@
 			color: $white;
 			speak: none;
 			-webkit-font-smoothing: antialiased;
-			content: "\f105";
+			
 		}
+
 		&.dl-back:after {
 			left: 10px;
 			color: rgba(212,204,198,0.5);
@@ -120,12 +138,28 @@
 			color: rgba(0,0,0,0.15);
 		}
 	}
+	.social-icons-about{
+		padding: 5px;
+		display: inline-block;
+		@media (max-width: 400px) {
+			text-align: center;
+		}
+	}
+	
+	.social-icons-about a:hover {
+		
+		background-color: #000;
+	}
+	.fa-fw{
+		width: 0.9em;
+	}
+
 	.dl-menu {
 		margin: 0;
 		position: absolute;
 		width: 100%;
-		max-width: 400px;
-		overflow-y: auto;
+		/*max-width: 400px;
+		overflow-y: auto;*/
 		max-height: 600px;
 		opacity: 0;
 		pointer-events: none;
@@ -139,6 +173,22 @@
 		@media #{$medium} {
 			@include border-radius(3px,3px,3px,3px);
 			max-height: 650px;
+		}
+		@media (min-width: 400px) {
+			@include border-radius(3px,3px,3px,3px);
+			max-height: 650px;
+		}
+		.center {
+			text-align: center;
+			
+		}
+		img.author-photo {
+			border-radius: 50%;
+			max-width: 175px;
+			height: auto;
+			/*@media (min-width: 400px) {
+				max-width: 70%;
+			}*/
 		}
 	}
 	.dl-menu.dl-menu-toggle {

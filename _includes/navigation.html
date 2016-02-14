@@ -5,16 +5,26 @@
 		<li>
 			<a href="#">About</a>
 			<ul class="dl-submenu">
-				<li>
+				<li class="center">
 					<img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="author-photo">
 					<h4>{{ site.owner.name }}</h4>
 					<p>{{ site.owner.bio }}</p>
 				</li>
-				<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				{% if site.owner.email %}<li>
-					<a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
-				</li>{% endif %}
-				{% if site.owner.twitter %}<li>
+				<li class="center">
+					<a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<li class="social-icons-about">
+						<div>
+							<a class="social-icons" href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i></a>
+							<!-- Changes start here -->
+							<a class="social-icons" href="https://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-fw fa-facebook"></i> </a>
+							<a class="social-icons" href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-fw fa-linkedin"></i> </a>
+							<a class="social-icons" href="https://github.com/{{ site.owner.github }}"><i class="fa fa-fw fa-github"></i> </a>
+							<a class="social-icons" href="https://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-fw fa-instagram"></i></a>
+						</div>
+						<!-- Changes end here -->
+					</li>
+
+				<!-- {% if site.owner.twitter %}<li>
 					<a href="https://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
 				</li>{% endif %}
 				{% if site.owner.facebook %}<li>
@@ -40,7 +50,7 @@
 				</li>{% endif %}
 				{% if site.owner.tumblr %}<li>
 					<a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i> Tumblr</a>
-				</li>{% endif %}
+				</li>{% endif %} -->
 			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
@@ -51,12 +61,12 @@
 			</ul>
 		</li>
 		{% for link in site.data.navigation %}
-	    {% if link.url contains 'http' %}
-	        {% assign domain = '' %}
-	        {% else %}
-	        {% assign domain = site.url %}
-	    {% endif %}
-	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
-	  {% endfor %}
+		{% if link.url contains 'http' %}
+		{% assign domain = '' %}
+		{% else %}
+		{% assign domain = site.url %}
+		{% endif %}
+		<li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
+		{% endfor %}
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
