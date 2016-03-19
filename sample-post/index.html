@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Sample Post &#8211; Site Title</title>
+<title>Sample Post &#8211; </title>
 <meta name="description" content="Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.">
 <meta name="keywords" content="sample post">
 
@@ -17,14 +17,14 @@
 <meta property="og:title" content="Sample Post">
 <meta property="og:description" content="Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more.">
 <meta property="og:url" content="/sample-post/">
-<meta property="og:site_name" content="Site Title">
+<meta property="og:site_name" content="">
 
 
 
 
 
 <link rel="canonical" href="/sample-post/">
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -69,16 +69,26 @@
 		<li>
 			<a href="#">About</a>
 			<ul class="dl-submenu">
-				<li>
-					<img src="/images/saul-picture.jpg" alt="Saul Venskutonis photo" class="author-photo">
+				<li class="center">
+					<img src="/images/saul1.png" alt="Saul Venskutonis photo" class="author-photo">
 					<h4>Saul Venskutonis</h4>
 					<p>Developer, designer and a passionate learner.</p>
 				</li>
-				<li><a href="/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				<li>
-					<a href="mailto:saulvenskutonis@gmail.com"><i class="fa fa-fw fa-envelope"></i> Email</a>
-				</li>
-				
+				<li class="center">
+					<a href="/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<li class="social-icons-about">
+						<div>
+							<a class="social-icons" href="mailto:saulvenskutonis@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
+							<!-- Changes start here -->
+							<a class="social-icons" href="https://facebook.com/"><i class="fa fa-fw fa-facebook"></i> </a>
+							<a class="social-icons" href="https://linkedin.com/in/sauliusvenskutonis"><i class="fa fa-fw fa-linkedin"></i> </a>
+							<a class="social-icons" href="https://github.com/saulve"><i class="fa fa-fw fa-github"></i> </a>
+							<a class="social-icons" href="https://instagram.com/venskutonis"><i class="fa fa-fw fa-instagram"></i></a>
+						</div>
+						<!-- Changes end here -->
+					</li>
+
+				<!-- 
 				
 				
 				<li>
@@ -92,7 +102,7 @@
 					<a href="https://instagram.com/venskutonis"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
 				</li>
 				
-				
+				 -->
 			</ul><!-- /.dl-submenu -->
 		</li>
 		<li>
@@ -103,29 +113,23 @@
 			</ul>
 		</li>
 		
-	    
-	    <li><a href="/theme-setup/" >Theme Setup</a></li>
-	  
-	    
-	    <li><a href="http://mademistakes.com" target="_blank">External Link</a></li>
-	  
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
 
 
 
 <div class="entry-header">
-  <div class="image-credit">Image source: <a href="http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/">dargadgetz</a></div><!-- /.image-credit -->
+  <!--   -->
   <div class="entry-image">
     <img src="/images/abstract-3.jpg" alt="Sample Post">
-  </div><!-- /.entry-image -->
+  </div><!-- /.entry-image
 </div><!-- /.entry-header -->
 
 
 <div id="main" role="main">
   <article class="hentry">
     <header class="header-title">
-      <div class="header-title-wrap">
+      <div class="header-title-wrap post-header">
         
           <h1 class="entry-title"><a href="/sample-post/" rel="bookmark" title="Sample Post">Sample Post</a></h1>
         
@@ -248,14 +252,15 @@ Reading time ~1 minute
 
 <p>Non Pygments code example</p>
 
-<pre><code>&lt;div id="awesome"&gt;
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;div id="awesome"&gt;
     &lt;p&gt;This is great isn't it?&lt;/p&gt;
 &lt;/div&gt;
 </code></pre>
+</div>
 
 <h2 id="buttons">Buttons</h2>
 
-<p>Make any link standout more when applying the <code>.btn</code> class.</p>
+<p>Make any link standout more when applying the <code class="highlighter-rouge">.btn</code> class.</p>
 
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">class=</span><span class="s">"btn btn-success"</span><span class="nt">&gt;</span>Success Button<span class="nt">&lt;/a&gt;</span></code></pre></figure>
 
@@ -285,20 +290,20 @@ Reading time ~1 minute
       <a href="" class="read-more-btn">Read More</a>
     </div><!-- /.read-more-header -->
     <div class="read-more-content">
-      <h3><a href="/this-is-but-a-test/" title="This is but a test">This is but a test</a></h3>
-      <p>TEST NR 2!!!&hellip; <a href="/this-is-but-a-test/">Continue reading</a></p>
+      <h3><a href="/another-test/" title="Another test">Another test</a></h3>
+      <p>A ton of text to test readability. <a href="/another-test/">Continue reading</a></p>
     </div><!-- /.read-more-content -->
   
   <div class="read-more-list">
     
       <div class="list-item">
-        <h4><a href="/this-is-a-rake-test-post/" title="This is a rake test post">This is a rake test post</a></h4>
+        <h4><a href="/this-is-but-a-test/" title="This is but a test">This is but a test</a></h4>
         <span>Published on January 19, 2016</span>
       </div><!-- /.list-item -->
     
       <div class="list-item">
-        <h4><a href="/background-image/" title="Post with a Background Image">Post with a Background Image</a></h4>
-        <span>Published on October 26, 2013</span>
+        <h4><a href="/this-is-a-rake-test-post/" title="This is a rake test post">This is a rake test post</a></h4>
+        <span>Published on January 19, 2016</span>
       </div><!-- /.list-item -->
     
   </div><!-- /.read-more-list -->
