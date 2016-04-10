@@ -76,8 +76,8 @@
 				</li>
 				<li class="center" style="text-align: center">
 					<a href="/about/"><span class="btn btn-inverse">Learn More</span></a></li>
-				<li class="social-icons-about">
-						<div class="center">
+					<li class="center">
+						<div style="margin: auto; display: block">
 							<a class="social-icons" href="mailto:saulvenskutonis@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
 							<!-- Changes start here -->
 							<a class="social-icons" href="https://facebook.com/"><i class="fa fa-fw fa-facebook"></i> </a>
@@ -87,7 +87,7 @@
 							<a class="social-icons" href="https://quora.com/profile/Saul-Venskutonis-1"><img src="/images/q-logo.png"></i></a>
 						</div>
 						<!-- Changes end here -->
-				</li>
+					</li>
 
 				<!-- 
 				
@@ -113,9 +113,26 @@
 				<li><a href="/tags/">All Tags</a></li>
 			</ul>
 		</li>
+		<li>
+			<a href="#">Search</a>
+			<ul class="dl-submenu">
+				<li><!-- Html Elements for Search -->
+					<form action="get" id="site_search" class="center">
+						<input type="text" id="search_box">
+						<input type="submit" value="search" id="search_button" class="btn btn-inverse">
+					</form>
+					
+				</li>
+				<li>
+					<ul id="search_results"></ul>
+				</li>
+
+			</ul>
+		</li>
 		
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->
+
 
 
 
@@ -123,8 +140,8 @@
   <!--   -->
   <div class="entry-image">
     <div class="teaser-image" style="height: 400px; background-image: url(/images/city-lights-small.jpg);"></div>
-  </div><!-- /.entry-image
-</div><!-- /.entry-header -->
+  </div><!-- /.entry-image-->
+</div> <!-- /.entry-header -->
 
 
 <div id="main" role="main">
@@ -223,6 +240,8 @@ Reading time ~2 minutes
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="/assets/js/scripts.min.js"></script>
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
 
 
 
