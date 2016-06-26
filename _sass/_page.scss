@@ -435,6 +435,8 @@ body {
 			}
 		}
 		.article-wrap {
+			min-height: 144.813px;
+			padding-right: 10px;
 			margin-left: 18em;
 			@media #{$small} {
 				padding: 0 10px 0 10px;
