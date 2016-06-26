@@ -3,6 +3,8 @@ layout: post-index
 title: All Posts
 description: "An archive of posts."
 comments: false
+image:
+  background: old_wall.png
 ---
 
 {% for post in site.posts %}
@@ -11,8 +13,8 @@ comments: false
 
     {% if forloop.first %}
     <article>
-      <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-      <ul>
+      <h2 id="{{ this_year }}-ref" class="year-heading">{{ this_year }}</h2>
+      <ul class="archive-list">
     {% endif %}
 
         <li class="entry-title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
@@ -26,7 +28,7 @@ comments: false
         </article>
         <article>
           <h2 id="{{ next_year }}-ref" class="year-heading">{{next_year}}</h2>
-          <ul>
+          <ul class="archive-list">
         {% endif %}
     {% endif %}
 {% endfor %}
