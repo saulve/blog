@@ -110,7 +110,7 @@ bootstrap: {
 
 exec: {
   jekyll: {
-    cmd: "bundle exec jekyll build --trace"
+    cmd: "jekyll build --trace"
   }
 },
 
