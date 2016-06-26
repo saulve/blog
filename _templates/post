@@ -4,11 +4,11 @@ title: {{ title }}
 modified:
 categories: {{ dir }}
 description:
+excerpt:
 tags: []
 image:
   feature:
-  credit:
-  creditlink:
+  teaser:
 comments:
 share:
 ---

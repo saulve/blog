@@ -10,17 +10,26 @@
 	-webkit-perspective-origin: 50% 200%;
 	-moz-perspective-origin: 50% 200%;
 	perspective-origin: 50% 200%;
-	@media #{$medium} {
-		position: fixed;
-		max-width: 100%;
-		top: 25px;
-		left: 25px;
+	@media #{$small} {
+		
+		#search_box {
+			max-width: 100%;
+			border-radius: 3px;
+			border: 2px solid #fff;
+			padding: 6px 0px 6px 0px
+		}
 	}
 	@media (min-width: 400px) {
 		position: fixed;
 		max-width: 175px;
 		top: 25px;
 		left: 25px;
+		#search_box {
+			max-width: 173px;
+			border-radius: 3px;
+			border: 2px solid #fff;
+			padding: 6px 0px 6px 0px
+		}
 	}
 
 	button {
@@ -104,6 +113,9 @@
 			font-weight: 400;
 			color: $white;
 			outline: none;
+			@media #{$small} {
+				padding: 15px 18px
+			}
 		}
 		&.dl-back a:before {
 			font-family: 'fontawesome';
@@ -139,20 +151,20 @@
 		}
 	}
 	.social-icons-about{
-		padding: 5px;
 		display: inline-block;
-		@media (max-width: 400px) {
-			text-align: center;
-		}
+	}
+	.social-icons {
+		display: inline-block;
+		margin: auto;
 	}
 	
 	.social-icons-about a:hover {
-		
 		background-color: #000;
 	}
-	.fa-fw{
+	.fa-fw {
 		width: 0.9em;
 	}
+
 
 	.dl-menu {
 		margin: 0;
@@ -188,33 +200,35 @@
 			height: auto;
 			/*@media (min-width: 400px) {
 				max-width: 70%;
-			}*/
+				}*/
+			}
+		}
+		.dl-menu.dl-menu-toggle {
+			-webkit-transition: all 0.3s ease;
+			-moz-transition: all 0.3s ease;
+			transition: all 0.3s ease;
+		}
+		.dl-menu.dl-menuopen {
+			opacity: 1;
+			pointer-events: auto;
+			-webkit-transform: translateY(0px);
+			-moz-transform: translateY(0px);
+			transform: translateY(0px);
+		}
+		.dl-submenu {
+			@include rounded(3px);
+			box-shadow: 0 12px 24px rgba($black,0.4);
+			.btn {
+				margin-bottom: 0;
+			}
+		}
+		/* Hide the inner submenus */
+		li .dl-submenu {
+			display: none;
 		}
 	}
-	.dl-menu.dl-menu-toggle {
-		-webkit-transition: all 0.3s ease;
-		-moz-transition: all 0.3s ease;
-		transition: all 0.3s ease;
-	}
-	.dl-menu.dl-menuopen {
-		opacity: 1;
-		pointer-events: auto;
-		-webkit-transform: translateY(0px);
-		-moz-transform: translateY(0px);
-		transform: translateY(0px);
-	}
-	.dl-submenu {
-		@include rounded(3px);
-		box-shadow: 0 12px 24px rgba($black,0.4);
-		.btn {
-			margin-bottom: 0;
-		}
-	}
-	/* Hide the inner submenus */
-	li .dl-submenu {
-		display: none;
-	}
-}
+
+
 /* 
 When a submenu is openend, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
@@ -233,6 +247,27 @@ All this is done for any sub-level being entered.
 .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu,
 .dl-menu.dl-subview li.dl-subviewopen > .dl-submenu > li {
 	display: block;
+}
+
+
+#search_results {
+	max-height: 250px;
+	overflow: auto
+	
+}
+#search_results li {
+	display: block;
+	color: #fff;
+	padding: 5px
+}
+#search_button {
+	margin: 15px auto 15px auto;
+}
+.search-results-list a{
+	width: 100%;
+}
+li.search-results-list :hover {
+	background-color: #000;
 }
 /* Animation classes for moving out and in */
 .dl-menu.dl-animate-out {

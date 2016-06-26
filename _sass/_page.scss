@@ -138,10 +138,6 @@ body {
 		}
 		.entry-image {
 			position: relative;
-			top: -50%; 
-			left: -50%; 
-			width: 200%; 
-			height: 200%;
 			min-height: $feature-image-height;
 			overflow: hidden;
 			&:after {
@@ -201,6 +197,11 @@ body {
 				text-decoration: none;
 			}
 		}
+		// New css
+	/*	.article-wrap a > img {
+			width: 23.23176%;
+			float: left;
+		}*/
 
 		// Single Post and Page
 		// --------------------------------------------------
@@ -297,8 +298,8 @@ body {
 			margin-top: 0;
 		}
 		// Permalink icon for link post
-		.permalink {
-			margin-right: 7px;
+		.permalink {-right: 
+			margin7px;
 		}
 		// Post Pagination Module
 		.pagination {
@@ -411,18 +412,45 @@ body {
 			}
 			article {
 				background-color: $white;
+				width: 100%;
+				position: relative;
+				overflow: hidden;
+				padding: 0;	
 				box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
 				@include rounded(3px);
 				margin-bottom: 20px;
-				padding: 25px 15px;
+				
 				@media #{$medium} {
-					padding: 30px;
 				}
 				@media #{$large} {
-					margin-bottom: 30px;
-					padding: 50px 80px;
 				}
 			}
+		}
+		.post-teaser {
+			position: absolute;
+			width: 17em;
+			height: 100%;
+			@media #{$small} {
+				position: relative;	
+			}
+		}
+		.article-wrap {
+			margin-left: 18em;
+			@media #{$small} {
+				padding: 0 10px 0 10px;
+				margin: 0
+			}
+		}
+		.teaser-image {
+			height: 100%; 
+			width: 100%;
+			background-repeat: no-repeat; 
+			background-size: cover; 
+			background-position: center; 
+			@media #{$small} {
+				height: 17em;
+			}
+
 		}
 		.entry-image-index {
 			margin-top: -25px;

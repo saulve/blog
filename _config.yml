@@ -1,4 +1,4 @@
-title:
+title:            Thought Oasis
 icon:             lightbulb2-black-palm.png            
 description:      This website is made by Saul Venskutonis and contains various tutorials, insights and ideas.
 disqus_shortname: saulve
@@ -6,8 +6,9 @@ reading_time:     true
 words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              
+url:              http://saulve.com
 #baseurl:          "blog/tree/gh-pages" 
+port: 4001
 
 # Owner/author information
 owner:
@@ -16,14 +17,15 @@ owner:
   bio:            "Developer, designer and a passionate learner."
   email:          saulvenskutonis@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        svenskutonis
   facebook:       
   github:         saulve
   stackexchange:  
   linkedin:       sauliusvenskutonis
   instagram:      venskutonis
   flickr:         
-  tumblr:         
+  tumblr:
+  quora:          profile/Saul-Venskutonis-1         
   # google plus id, include the '+', eg +mmistakes
   google_plus:
 

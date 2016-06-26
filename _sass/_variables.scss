@@ -1,8 +1,8 @@
 // Page
 // --------------------------------------------------
 
-$feature-image-height: 400px; // min 150px recommended
-$front-page-feature-image-height: 400px; // min 150px recommended
+$feature-image-height: 200px; // min 150px recommended
+$front-page-feature-image-height: 200px; // min 150px recommended
 
 // Typography
 // --------------------------------------------------
@@ -46,6 +46,6 @@ $info				         : #308cbc;
 // Screen Size
 // --------------------------------------------------
 
-$small               : "only screen and (min-width: 30em)";
+$small               : "only screen and (max-width: 30em)";
 $medium              : "only screen and (min-width: 48em)";
 $large               : "only screen and (min-width: 62.5em)";
