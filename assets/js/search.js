@@ -6,6 +6,7 @@ jQuery(function() {
     this.field('title', { boost: 10 });
     this.field('author');
     this.field('category');
+    this.field('thumbnail');
   });
 
   // Download the data from the JSON file we generated
@@ -27,7 +28,7 @@ jQuery(function() {
       var results = window.idx.search(query); // Get lunr to perform a search
       display_search_results(results); // Hand the results off to be displayed
   });
-  
+
   //Event when input is changed
   $("#search_box").on('input', function(){
       event.preventDefault();
@@ -50,8 +51,18 @@ jQuery(function() {
         results.forEach(function(result) {
           var item = loaded_data[result.ref];
 
-          // Build a snippet of HTML for this result
+          // //If post has a thumbnail, include it
+          // if(item.thumbnail){
+          //   // Build a snippet of HTML for this result
+          //   var appendString = '<li class="search-results-list"><img src="/images/' + item.thumbnail + '"/><a href="' + item.url + '">' + item.title + '</a></li>';
+          // }
+          // else {
+          //   //Else build without a thumbnail
+          //   var appendString = '<li class="search-results-list"><a href="' + item.url + '">' + item.title + '</a></li>';
+          // }
           var appendString = '<li class="search-results-list"><a href="' + item.url + '">' + item.title + '</a></li>';
+
+          
 
           // Add it to the results
           $search_results.append(appendString);
